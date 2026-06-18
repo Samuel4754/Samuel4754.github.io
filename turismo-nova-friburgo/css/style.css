@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(221, 228, 224);
+}
+
+nav{
+    height: 3em;
+    background-color: grey;
+
+}
+
+#navi{
+    text-align: center;
+    color: black;
+    font-size: larger;
+}
+
+footer{
+    background-color: grey;
+}
+
+header{
+    background-image:url(../Imagens/Teleferico.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
