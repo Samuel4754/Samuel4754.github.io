@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden; 
+}
+
+header {
+    position: relative;
+    top: 0;
+    left: 14.1em; 
+    width: calc(100% - 14.0625em); 
+    height: 13.625em;
+    background-color: #776957;
+    color: black;
+    text-align: center;
+    padding: auto;
+    border-radius: 0.3125em;
+}
+
+main {
+    text-align: justify;
+    position: relative;
+    left: 14.1em;
+    width: calc(100% - 14.0625em); 
+    background-color: #eddbc4;
+    border-radius: 0.3125em;
+    height: auto; 
+    padding: 1.875em;
+}
+
+main textarea{
+    position: relative;
+    width: 8em;
+    height: 2em;
+    max-width: 8em;
+    min-width: 8em;
+    min-height: 2em;
+    max-height: 2em;
+}
+
+aside {
+    position: fixed;
+    top: 0;
+    left: 0; 
+    width: 14.0625em;
+    height: 100vh; 
+    background-color: #65594a;
+    border-radius: 0.3125em;
+    padding: 1em;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: larger;
+}
+
+nav{
+    padding: 1em;
+    position: relative;
+    background-color: #65594a;
+    width: calc(100% - 14.0625em);
+    height: 3em;
+    left: 14.1em; 
+    color: black;
+    border-radius: 0.3125em;
+}
+
+aside img{
+    width: 2.8em;
+    height: 2em;
+}
+
+main img{
+    width: 2.8em;
+    height: 2em;
+}
+
+.Comment{
+    border-radius: 0.5em;
+    background-color: white;
+    width: 35em;
+    margin-left: 3em;
+}
+#Decor{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: orangered;
+}
+
+#Decor img{
+    width: 1em;
+    height: 1em;
+}
+
+#Decor p{
+    margin-left: -28em;
+}
