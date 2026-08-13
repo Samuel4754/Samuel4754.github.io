@@ -114,14 +114,83 @@
 header{
     background-image: url(imagens/bokeh_car_lights_bg.jpg);
 	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
 }
 header h1{
 	text-align: center;
 	color: white;
 }
+
+header li:last-child a{
+	color: black;
+}
+
+header li:last-child a, header li:hover a{
+	color: black;
+}
+
+header li:last-child, header li:hover{
+	color: black;
+	background-color: white;
+	border-radius: 25px;
+	padding: 5px 25px;
+}
+
+header{
+	padding: 20px;
+}
+
 nav ul{
+	padding-left: 0;
 	display: flex;
+	width: 500px;
 	list-style: none;
 	justify-content: space-between;
-	width: 40em;
+	align-items: center;
+}
+body{
+	margin:0;
+}
+
+header, footer{
+	color:white;
+}
+
+.logo{
+	padding: 0px 0px 0px 30px;
+	display: inline;
+}
+
+
+
+.botao{
+	border-radius: 25px;
+	padding: 10px;
+	
+}
+
+.azul{
+	background-color: rgb(60, 173, 212);
+	color: white;
+
+
+}
+
+header a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.topo{
+	display: flex;
+	justify-content: space-between;
+}
+
+.one{
+	background-color: rgb(245, 245, 245);
+}
+
+.card{
+	background-color: white;
 }
