@@ -14,9 +14,13 @@ header {
     left: 14.1em; 
     width: calc(100% - 14.0625em); 
     height: 13.625em;
-    background-color: #776957;
+    background-color: rgb(240, 222, 199);
+    background-image: url(Imagens/Logo.png);
+    background-size: 16.5em 16.5em;
+    background-position: center;
+    background-repeat: no-repeat;
     color: black;
-    text-align: center;
+    text-align: right;
     padding: auto;
     border-radius: 0.3125em;
 }
@@ -28,18 +32,18 @@ main {
     width: calc(100% - 14.0625em); 
     background-color: #eddbc4;
     border-radius: 0.3125em;
-    height: auto; 
     padding: 1.875em;
 }
 
-main textarea{
+textarea{
     position: relative;
-    width: 8em;
+    width: 11.5em;
     height: 2em;
-    max-width: 8em;
-    min-width: 8em;
+    max-width: 11.5em;
+    min-width: 11.5em;
     min-height: 2em;
     max-height: 2em;
+    float: right;
 }
 
 aside {
@@ -82,18 +86,24 @@ main img{
     height: 2em;
 }
 
-.Comment{
+.text{
     border-radius: 0.5em;
     background-color: white;
     width: 35em;
     margin-left: 3em;
+    padding: 10px;
 }
 #Decor{
     background-color: lightgray;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: calc(100% + 20px);
     color: orangered;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    box-sizing: border-box;
+    padding-right: 5px;
 }
 
 #Decor img{
@@ -103,4 +113,11 @@ main img{
 
 #Decor p{
     margin-left: -28em;
+}
+
+.Comment{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+
 }
