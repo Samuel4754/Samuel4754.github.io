@@ -45,7 +45,7 @@ aside {
     background-color: rgb(172, 187, 198);
     border-radius: 0.3125em;
 }
-#degrade {
+#degrade{
 
     font-size: 1.314em;
     bottom: 0.55em;
@@ -58,7 +58,6 @@ aside {
 }
 
 nav{
-    border: red 1px solid;
     font-weight: bold;
     left: 9.1625em;
     width: calc(100% - 9.1625em);
