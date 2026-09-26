@@ -15,7 +15,7 @@ header {
     width: calc(100% - 14.0625em); 
     height: 13.625em;
     background-color: rgb(240, 222, 199);
-    background-image: url(Imagens/Logo.png);
+    background-image: url(../Imagens/Logo.png);
     background-size: 16.5em 16.5em;
     background-position: center;
     background-repeat: no-repeat;
