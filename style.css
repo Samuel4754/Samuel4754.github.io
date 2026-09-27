@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden; 
+}
+
+header {
+    position: relative;
+    top: 0;
+    left: 14.0625em; 
+    width: calc(100% - 14.0625em); 
+    height: 15.625em;
+    background-image: url(Imagens/Timor\ Leste.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    padding: auto;
+}
+
+main {
+    text-align: justify;
+    position: relative;
+    margin: 0.625em;
+    left: 14.0625em;
+    width: calc(100% - 14.0625em); 
+    background-color: #D4F5D3;
+    border-radius: 0.3125em;
+    height: 100%; 
+    padding: 1.875em;
+}
+
+aside {
+    position: fixed;
+    top: 0;
+    left: 0; 
+    width: 14.0625em;
+    height: 100vh; 
+    background-color: #367534;
+    border-radius: 0.3125em;
+}
+#degrade {
+
+    font-size: 1.314em;
+    bottom: 0.55em;
+    position: absolute;
+    left: 1.875em;
+}
+
+#Click {
+    font-size: 1.314em;
+}
