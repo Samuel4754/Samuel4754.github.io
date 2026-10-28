@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 20px;
+    border: 2px solid gray;
+    background-color: white;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 2rem;
+    color: rgb(34, 34, 34);
+}
+
+nav {
+    background-color: rgb(195, 207, 217);
+    padding: 12px 15px;
+    margin-bottom: 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px 15px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(26, 26, 26);
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: font-size 0.2s ease, color 0.2s ease;
+}
+
+nav li a:hover {
+    color: black;
+    font-size: 1.25rem;
+}
+
+header img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    background-color: white;
+    border: 2px solid gray;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.card {
+    border: 2px solid gray;
+    width: calc(33.333% - 14px);
+    min-height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    padding-bottom: 15px;
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    background-color: white;
+    border-bottom: 2px solid gray;
+}
+
+.card h2 {
+    font-size: 1.2rem;
+    padding: 12px 15px 5px 15px;
+}
+
+.card p {
+    font-size: 0.95rem;
+    padding: 0 15px;
+    color: rgb(51, 51, 51);
+    line-height: 1.4;
+    flex-grow: 1;
+}
+
+.card a {
+    align-self: flex-end;
+    margin-right: 15px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.card button {
+    background-color: rgb(101, 88, 245);
+    color: white;
+    border: none;
+    height: 2.2em;
+    width: 7em;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.card button:hover {
+    background-color: rgb(75, 62, 220);
+}
+
+.textos {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.texto {
+    background-color: rgb(195, 207, 217);
+    width: 75%;
+    padding: 20px;
+    border: 2px solid grey;
+}
+
+.texto h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.texto p {
+    line-height: 1.5;
+    font-size: 0.95rem;
+    color: rgb(34, 34, 34);
+}
+
+.ana {
+    border: 2px solid grey;
+    width: 23%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.ana img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    background-color: white;
+    border-bottom: 2px solid grey;
+}
+
+.ana h2 {
+    font-size: 1.1rem;
+    padding: 15px 15px 5px 15px;
+}
+
+.ana p {
+    font-size: 0.85rem;
+    padding: 0 15px 15px 15px;
+    line-height: 1.4;
+    color: rgb(68, 68, 68);
+}
+
+/* --- ESTILIZAÇÃO DO FOOTER --- */
+footer {
+    background-color: rgb(195, 207, 217);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 15px;
+}
+
+footer p {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: rgb(34, 34, 34);
+}
+
+footer .social-icons {
+    display: flex;
+    gap: 12px;
+}
+
+footer .social-icons a {
+    color: rgb(44, 62, 80);
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+footer .social-icons a:hover {
+    color: black;
+}
+
+/* --- MEDIA QUERIES --- */
+@media (max-width: 900px) {
+    .card {
+        width: calc(50% - 10px);
+        min-height: 450px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .card {
+        width: calc(50% - 10px);
+        min-height: auto;
+    }
+
+    .textos {
+        flex-direction: column;
+    }
+
+    .texto, .ana {
+        width: 100%;
+    }
+
+    nav ul {
+        justify-content: center;
+        gap: 10px 15px;
+    }
+
+    nav li a {
+        font-size: 0.95rem;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+}
